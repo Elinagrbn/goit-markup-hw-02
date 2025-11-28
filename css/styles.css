@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
+  background-color: #fff;
 }
 
 a {
@@ -69,13 +70,16 @@ h1 {
   letter-spacing: 0.02em;
 }
 
-button:hover {
+button:hover,
+button:focus {
   background-color: #404bbf;
 }
 
 address a:hover,
+address a:focus,
 .page-nav a:hover,
-.page-nav a:active {
+.page-nav a:active,
+.page-nav a:focus {
   color: #404bbf;
 }
 
