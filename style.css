@@ -1,7 +1,6 @@
 body {
   font-family: "Roboto" sans-serif;
   color: #434455;
-  background-color: white;
 }
 
 .page-title {
@@ -15,39 +14,62 @@ a {
 
 .logo-web {
   color: #4d5ae5;
-  font-family: raleway;
+  font-family: raleway, sans-serif;
   font-weight: 700;
   font-size: 18px;
   text-decoration: none;
   text-transform: uppercase;
+  line-height: 1.66;
 }
 
 .logo-studio {
   color: #2e2f42;
-  font-family: raleway;
+  font-family: raleway, sans-serif;
   font-weight: 700;
   font-size: 18px;
   text-decoration: none;
   text-transform: uppercase;
+  line-height: 1.66;
 }
 
 address a {
-  text-decoration: none;
   font-style: normal;
   color: #434455;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 button {
-  color: white;
+  color: #fff;
   background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 h1 {
   text-align: center;
+  font-family: "Roboto" sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.0714;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 0.02em;
 }
 
 .page-nav a {
   color: #2e2f42;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 button:hover {
@@ -94,8 +116,6 @@ ol {
 
 .team p,
 .portfolio p {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: #434455;
@@ -118,18 +138,26 @@ footer {
 
 .footer-logo-web {
   color: #4d5ae5;
-  font-family: raleway;
+  font-family: raleway, sans-serif;
   font-weight: 700;
   font-size: 18px;
   text-decoration: none;
   text-transform: uppercase;
+  line-height: 1.66;
 }
 
 .footer-logo-studio {
   color: #f4f4fd;
-  font-family: raleway;
+  font-family: raleway, sans-serif;
   font-weight: 700;
   font-size: 18px;
   text-decoration: none;
   text-transform: uppercase;
+  line-height: 1.66;
+}
+
+footer p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #f4f4fd;
 }
