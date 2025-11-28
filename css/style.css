@@ -6,6 +6,12 @@ body {
 .page-title {
   background-color: #2e2f42;
   color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 
 a {
@@ -14,22 +20,21 @@ a {
 
 .logo-web {
   color: #4d5ae5;
-  font-family: raleway, sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  text-decoration: none;
-  text-transform: uppercase;
-  line-height: 1.66;
 }
 
 .logo-studio {
   color: #2e2f42;
-  font-family: raleway, sans-serif;
+}
+
+.logo-studio,
+.logo-web {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   text-decoration: none;
   text-transform: uppercase;
   line-height: 1.66;
+  letter-spacing: 0.03em;
 }
 
 address a {
@@ -119,6 +124,7 @@ ol {
   font-size: 16px;
   line-height: 1.5;
   color: #434455;
+  letter-spacing: 0.02em;
 }
 
 .team li {
@@ -130,6 +136,13 @@ ol {
 
 .portfolio-title {
   text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
 }
 
 footer {
@@ -138,26 +151,27 @@ footer {
 
 .footer-logo-web {
   color: #4d5ae5;
-  font-family: raleway, sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  text-decoration: none;
-  text-transform: uppercase;
-  line-height: 1.66;
 }
 
 .footer-logo-studio {
   color: #f4f4fd;
-  font-family: raleway, sans-serif;
+}
+.footer-logo-studio,
+.footer-logo-web {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   text-decoration: none;
   text-transform: uppercase;
   line-height: 1.66;
+  letter-spacing: 0.03em;
 }
 
 footer p {
   font-size: 16px;
   line-height: 1.5;
   color: #f4f4fd;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.02em;
 }
