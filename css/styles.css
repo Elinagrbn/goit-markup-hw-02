@@ -51,7 +51,7 @@ address a {
 .page-title {
   background-color: #2e2f42;
 }
-h1 {
+.main-title {
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -88,12 +88,8 @@ ol {
   list-style-type: none;
 }
 
-.team-inner {
+.team {
   background-color: #f4f4fd;
-}
-
-.team-title {
-  text-align: center;
 }
 
 .team h3,
@@ -107,7 +103,8 @@ ol {
 }
 
 .team h3,
-.portfolio h3 {
+.portfolio h3,
+.features h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -116,7 +113,8 @@ ol {
 }
 
 .team p,
-.portfolio p {
+.portfolio p,
+.features p {
   font-size: 16px;
   line-height: 1.5;
   color: #434455;
@@ -128,7 +126,9 @@ ol {
   background-color: white;
 }
 
-.portfolio-title {
+.portfolio-title,
+.team-title,
+.features-title {
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -139,7 +139,7 @@ ol {
   color: #2e2f42;
 }
 
-footer {
+.footer-page {
   background-color: #2e2f42;
 }
 
@@ -161,11 +161,10 @@ footer {
   letter-spacing: 0.03em;
 }
 
-footer p {
+.footer-page p {
   font-size: 16px;
   line-height: 1.5;
   color: #f4f4fd;
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
   letter-spacing: 0.02em;
 }
