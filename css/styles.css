@@ -77,8 +77,8 @@ button:focus {
   background-color: #404bbf;
 }
 
-address a:hover,
-address a:focus,
+.contacts a:hover,
+.contacts a:focus,
 .page-nav a:hover,
 .page-nav a:active,
 .page-nav a:focus {
