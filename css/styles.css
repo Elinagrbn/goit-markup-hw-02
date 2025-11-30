@@ -4,10 +4,9 @@ body {
   background-color: #fff;
 }
 
-a {
+.header a {
   text-decoration: none;
 }
-
 .logo-web {
   color: #4d5ae5;
 }
@@ -27,14 +26,14 @@ a {
   letter-spacing: 0.03em;
 }
 
-address a {
+.contacts a {
   font-style: normal;
   color: #434455;
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .btn {
@@ -45,6 +44,8 @@ address a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+}
+button {
   cursor: pointer;
 }
 
@@ -68,6 +69,7 @@ address a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 button:hover,
@@ -123,7 +125,13 @@ ol {
 
 .team li {
   border: 1px;
-  background-color: white;
+  border-radius: 0 0 4px 4px;
+  padding: 0px 0px 32px;
+  width: 264px;
+  height: 380px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
 }
 
 .portfolio-title,
@@ -142,7 +150,9 @@ ol {
 .footer-page {
   background-color: #2e2f42;
 }
-
+.footer-page a {
+  text-decoration: none;
+}
 .footer-logo-web {
   color: #4d5ae5;
 }
